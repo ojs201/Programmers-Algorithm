@@ -11,7 +11,4 @@ def solution(s):
                 return False
                 break
 
-    if cnt == 0:
-        return True
-    else:
-        return False
+    return cnt == 0
